@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o PES1UG22CS544-1 wrongfile.cpp' // Compile the C++ file
+                    sh 'g++ -o PES1UG22CS544-1 pes1ug22cs544.cpp' // Compile the C++ file
                 }
             }
         }
